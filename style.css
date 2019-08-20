@@ -1,0 +1,107 @@
+/*
+STYLES.CSS
+
+Course:  Bootstrap 4 Quick Start
+Author:  Brad Hussey
+Website: bradhussey.ca
+*/
+
+html,
+body {
+    height: 101%;
+}
+
+img,iframe {
+    max-width: 100%;
+
+}
+
+.screen{
+    min-width: 100%;
+}
+
+/* cover */
+
+#cover {
+    background: #222 url('img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('img/cs_why.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+.bg-lightblue{
+    background: lightblue;
+}
+.space{
+    padding-bottom: 6em;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    left: 50%;
+}
+
+main{
+    padding-top: 6rem;
+    background: #222;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 544px) {
+    .container {
+      max-width: 576px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 940px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
